@@ -1,0 +1,17 @@
+Giới thiệu
+MCU: STM32F103
+IDE: STM32CubeIDE
+Features: 
+• Đọc dữ liệu cảm biến: Thu thập thông tin từ các cảm biến như cảm biến khí gas và cảm biến nhiệt độ. 
+• Hiển thị LCD: Hiển thị dữ liệu lên màn hình LCD 16x2 thông qua giao thức I2C, giúp tiết kiệm chân GPIO. 
+• Điều khiển bằng nút nhấn: Sử dụng ngắt ngoài để xử lý nút nhấn, cho phép thực hiện các hành động như mở khóa cửa một cách nhanh chóng và hiệu quả.
+Công nghệ sử dụng 
+• Vi điều khiển: STM32F103 
+• IDE: STM32CubeIDE 
+• Giao tiếp: I2C 
+• lập trình nhúng với HAL Library
+Mục tiêu 
+• Làm quen với lập trình vi điều khiển STM32 
+• Hiểu cách giao tiếp với cảm biến và thiết bị ngoại vi 
+• Ứng dụng ngắt, Queue, Mutex, Timer, Semaphone trong hệ thống thời gian thực 
+• Xây dựng nền tảng cho các hệ thống Smart Home phức tạp hơn
